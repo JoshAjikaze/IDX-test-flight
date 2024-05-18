@@ -1,11 +1,11 @@
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
+    <main className="w-full min-h-[90vh] bg-black/20">
+      <h1 className="heading">
         Hello world!
       </h1>
-    </>
+    </main>
   )
 }
 

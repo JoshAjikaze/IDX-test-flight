@@ -5,6 +5,8 @@
 
 *{
     font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 @layer components {
@@ -19,4 +21,27 @@
     .btn-red {
         @apply bg-red-500 text-white;
     }
+
+    .heading{
+        @apply text-2xl tracking-wider text-center font-light
+    }
+
+    .navlinks {
+        @apply p-2 no-underline hover:text-white transition-all duration-500 ease-in
+    }
+    .navlinks-active {
+        @apply tracking-wider text-[17px]
+    }
+}
+
+@layer utilities {
+    
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+  }
 }
