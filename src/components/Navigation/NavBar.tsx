@@ -59,7 +59,7 @@ const NavBar = () => {
           </svg>
         </button>
       </nav>
-        <NavMenu isOpen={showmenu} links={links} />
+        {/* <NavMenu isOpen={showmenu} links={links} /> */}
     </header>
   )
 }
